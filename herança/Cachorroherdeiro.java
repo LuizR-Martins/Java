@@ -4,17 +4,18 @@ public class Cachorroherdeiro extends Animal {
 
 	
 		
-		private String correr;
-
-		public String getCorrer() {
-			return correr;
-		}
-
-		public void setCorrer(String correr) {
-			this.correr = correr;
-		}
 		
-
+		
+	@Override
+	public void som() {
+	System.out.print("\nlatindo"); }
+	
+	@Override
+	public void locomover() {
+		System.out.print("\ncorrendo");
 	}
+	
+		
+		}
 
-}
+

@@ -2,14 +2,14 @@ package herança;
 
 public class Cavaloherdeiro extends Animal {
 	
-	private String correr;
+	
+	
+	@Override
+	public void som() {
+	System.out.print("\nrelinchando..."); }
+	
+	@Override
+	public void locomover() {
+		System.out.print("\ntrotando..."); }
 
-	public String getCorrer() {
-		return correr;
 	}
-
-	public void setCorrer(String correr) {
-		this.correr = correr;
-	}
-
-}
